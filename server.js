@@ -13,10 +13,10 @@ app.use(express.json());
 const PORT = 4040;
 
 const hi = [
-    "hi my name is soumya",
-    "hi my name is pakham",
-    "hi my name is mayur",
-    "hi my name is sasank"
+    // add quotes here
+    "https://i.pinimg.com/736x/5c/b6/1a/5cb61ab6e4d1e77f27f70a2a5f3151f5.jpg",
+    "https://www.pinterest.com/pin/4081455907178030/",
+    "https://www.pinterest.com/pin/15129348744284809/"
 ]
 
 app.get("/hi", (req, res) => {

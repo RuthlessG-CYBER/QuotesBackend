@@ -20,7 +20,7 @@ const hi = [
 ]
 
 app.get("/hi", (req, res) => {
-    res.status(200).send("Welcome to the SVU Server!");
+    res.status(200).send("Welcome to the Quotes Server!");
 })
 
 app.get("/quotes", (req, res) => {

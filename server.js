@@ -15,8 +15,8 @@ const PORT = 4040;
 const hi = [
     // add quotes here
     "https://i.pinimg.com/736x/5c/b6/1a/5cb61ab6e4d1e77f27f70a2a5f3151f5.jpg",
-    "https://www.pinterest.com/pin/4081455907178030/",
-    "https://www.pinterest.com/pin/15129348744284809/"
+    "https://i.pinimg.com/736x/fe/34/c7/fe34c707fb9a8fbd594ba9d2e7bbb43f.jpg",
+    "https://i.pinimg.com/736x/b1/5e/09/b15e0959849145016ef8a47615a97fcd.jpg"
 ]
 
 app.get("/hi", (req, res) => {
